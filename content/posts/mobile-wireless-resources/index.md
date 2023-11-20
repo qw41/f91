@@ -14,9 +14,9 @@ tags: ["AT&T", "Pay-As-You-Go"]
 lightgallery: true
 toc:
   auto: false
-hiddenFromHomePage: false
-hiddenFromSearch: false
-linktoMarkdown: false
+hiddenFromHomePage: true
+hiddenFromSearch: true
+linktoMarkdown: true
 comment: true
 resources:
 - name: "featured-image"
