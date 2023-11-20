@@ -1,0 +1,37 @@
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title>All Posts - lyroma</title>
+        <link>http://localhost:1313/posts/</link>
+        <description>All Posts | lyroma</description>
+        <generator>Hugo -- gohugo.io</generator><language>en</language><managingEditor>someguy@example.com (Don Silvio)</managingEditor>
+            <webMaster>someguy@example.com (Don Silvio)</webMaster><copyright>lyroma 2021</copyright><lastBuildDate>Mon, 20 Sep 2021 00:00:00 &#43;0000</lastBuildDate><atom:link href="http://localhost:1313/posts/" rel="self" type="application/rss+xml" /><item>
+    <title>How To Buy A SIM Card At The Airport, In The USA</title>
+    <link>http://localhost:1313/airport_sim_card/</link>
+    <pubDate>Mon, 20 Sep 2021 00:00:00 &#43;0000</pubDate><author>someguy@example.com (Don Silvio)</author><guid>http://localhost:1313/airport_sim_card/</guid>
+    <description><![CDATA[Affordable and easy to activate prepaid SIM cards are available at many airports in the USA.]]></description>
+</item>
+<item>
+    <title>InMotion Stores Prepaid Wireless Profile</title>
+    <link>http://localhost:1313/inmotionstores/</link>
+    <pubDate>Mon, 20 Sep 2021 00:00:00 &#43;0000</pubDate><author>someguy@example.com (Don Silvio)</author><guid>http://localhost:1313/inmotionstores/</guid>
+    <description><![CDATA[<div class="featured-image">
+                <img src="/img/inmotion.jpg" referrerpolicy="no-referrer">
+            </div>Disclosure  Updated September 27, 2021. Everything in this article has been verified by Don Silvio firsthand, no buffers. There is zero payment or influence being given or asked for. No one is paying for or reviewed this article before posting. The information below does not apply to airport locations outside the &ldquo;Mainland&rdquo; USA. Nothing is copied or regurgitated information, everything is up-to-date. Please leave your comments at the bottom of the article.]]></description>
+</item>
+<item>
+    <title>Prepaid Wireless And The Average American</title>
+    <link>http://localhost:1313/posts/Prepaid-Wireless-And-The-Average-American/</link>
+    <pubDate>Mon, 20 Sep 2021 00:00:00 &#43;0000</pubDate><author>someguy@example.com (Don Silvio)</author><guid>http://localhost:1313/posts/Prepaid-Wireless-And-The-Average-American/</guid>
+    <description><![CDATA[Updated October 04, 2021.
+Visiting the USA and looking for information about the Prepaid Wireless Market. SIM Cards, where, how, who, what, why. It would benefit someone visiting the USA to have a little knowledge about this topic. Want a quick breakdown? Read on.
+The US Cellular Market Quickly Summarized All numbers given are rounded out. Close enough to present the point being given.
+There are currently 3 Major Nationwide Mobile Network Operators (MNO&rsquo;s).]]></description>
+</item>
+<item>
+    <title>Don Silvio, Varsity Blogger?</title>
+    <link>http://localhost:1313/varsity_blogger/</link>
+    <pubDate>Sun, 19 Sep 2021 00:00:00 &#43;0000</pubDate><author>someguy@example.com (Don Silvio)</author><guid>http://localhost:1313/varsity_blogger/</guid>
+    <description><![CDATA[I&rsquo;m going to start posting about Prepaid Wireless topics. To start off, most of what I&rsquo;m going to post about are the things I could not find any &ldquo;good&rdquo; resources on.]]></description>
+</item>
+</channel>
+</rss>

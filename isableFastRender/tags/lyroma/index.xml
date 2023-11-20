@@ -1,0 +1,14 @@
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title>lyroma - Tag - lyroma</title>
+        <link>http://localhost:1313/tags/lyroma/</link>
+        <description>lyroma - Tag - lyroma</description>
+        <generator>Hugo -- gohugo.io</generator><language>en</language><managingEditor>someguy@example.com (Don Silvio)</managingEditor>
+            <webMaster>someguy@example.com (Don Silvio)</webMaster><copyright>lyroma 2021</copyright><lastBuildDate>Sun, 19 Sep 2021 00:00:00 &#43;0000</lastBuildDate><atom:link href="http://localhost:1313/tags/lyroma/" rel="self" type="application/rss+xml" /><item>
+    <title>Don Silvio, Varsity Blogger?</title>
+    <link>http://localhost:1313/varsity_blogger/</link>
+    <pubDate>Sun, 19 Sep 2021 00:00:00 &#43;0000</pubDate><author>someguy@example.com (Don Silvio)</author><guid>http://localhost:1313/varsity_blogger/</guid>
+    <description><![CDATA[I&rsquo;m going to start posting about Prepaid Wireless topics. To start off, most of what I&rsquo;m going to post about are the things I could not find any &ldquo;good&rdquo; resources on.]]></description>
+</item>
+</channel>
+</rss>

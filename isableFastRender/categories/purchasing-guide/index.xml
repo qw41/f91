@@ -1,0 +1,14 @@
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title>Purchasing Guide - Category - lyroma</title>
+        <link>http://localhost:1313/categories/purchasing-guide/</link>
+        <description>Purchasing Guide - Category - lyroma</description>
+        <generator>Hugo -- gohugo.io</generator><language>en</language><managingEditor>someguy@example.com (Don Silvio)</managingEditor>
+            <webMaster>someguy@example.com (Don Silvio)</webMaster><copyright>lyroma 2021</copyright><lastBuildDate>Mon, 20 Sep 2021 00:00:00 &#43;0000</lastBuildDate><atom:link href="http://localhost:1313/categories/purchasing-guide/" rel="self" type="application/rss+xml" /><item>
+    <title>How To Buy A SIM Card At The Airport, In The USA</title>
+    <link>http://localhost:1313/airport_sim_card/</link>
+    <pubDate>Mon, 20 Sep 2021 00:00:00 &#43;0000</pubDate><author>someguy@example.com (Don Silvio)</author><guid>http://localhost:1313/airport_sim_card/</guid>
+    <description><![CDATA[Affordable and easy to activate prepaid SIM cards are available at many airports in the USA.]]></description>
+</item>
+</channel>
+</rss>

@@ -1,0 +1,16 @@
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title>InMotion - Tag - lyroma</title>
+        <link>http://localhost:1313/tags/inmotion/</link>
+        <description>InMotion - Tag - lyroma</description>
+        <generator>Hugo -- gohugo.io</generator><language>en</language><managingEditor>someguy@example.com (Don Silvio)</managingEditor>
+            <webMaster>someguy@example.com (Don Silvio)</webMaster><copyright>lyroma 2021</copyright><lastBuildDate>Mon, 20 Sep 2021 00:00:00 &#43;0000</lastBuildDate><atom:link href="http://localhost:1313/tags/inmotion/" rel="self" type="application/rss+xml" /><item>
+    <title>InMotion Stores Prepaid Wireless Profile</title>
+    <link>http://localhost:1313/inmotionstores/</link>
+    <pubDate>Mon, 20 Sep 2021 00:00:00 &#43;0000</pubDate><author>someguy@example.com (Don Silvio)</author><guid>http://localhost:1313/inmotionstores/</guid>
+    <description><![CDATA[<div class="featured-image">
+                <img src="/img/inmotion.jpg" referrerpolicy="no-referrer">
+            </div>Disclosure  Updated September 27, 2021. Everything in this article has been verified by Don Silvio firsthand, no buffers. There is zero payment or influence being given or asked for. No one is paying for or reviewed this article before posting. The information below does not apply to airport locations outside the &ldquo;Mainland&rdquo; USA. Nothing is copied or regurgitated information, everything is up-to-date. Please leave your comments at the bottom of the article.]]></description>
+</item>
+</channel>
+</rss>

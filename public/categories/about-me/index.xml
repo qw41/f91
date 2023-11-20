@@ -1,0 +1,14 @@
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title>About Me - Category - Lyroma</title>
+        <link>http://Lyroma.com/categories/about-me/</link>
+        <description>About Me - Category - Lyroma</description>
+        <generator>Hugo -- gohugo.io</generator><language>en</language><managingEditor>lyroma@protonmail.com (Don Silvio)</managingEditor>
+            <webMaster>lyroma@protonmail.com (Don Silvio)</webMaster><copyright>Lyroma 2023</copyright><lastBuildDate>Fri, 05 Nov 2021 00:00:00 &#43;0000</lastBuildDate><atom:link href="http://Lyroma.com/categories/about-me/" rel="self" type="application/rss+xml" /><item>
+    <title>Don Silvio, Varsity Blogger?</title>
+    <link>http://Lyroma.com/varsity-blogger/</link>
+    <pubDate>Fri, 05 Nov 2021 00:00:00 &#43;0000</pubDate><author>lyroma@protonmail.com (Don Silvio)</author><guid>http://Lyroma.com/varsity-blogger/</guid>
+    <description><![CDATA[Who Let Me Have My Own Website?]]></description>
+</item>
+</channel>
+</rss>

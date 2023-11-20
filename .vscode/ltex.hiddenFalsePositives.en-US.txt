@@ -1,0 +1,17 @@
+{"rule":"ENGLISH_WORD_REPEAT_RULE","sentence":"^\\Q{{% admonition tip Tip false%}} Typical terminology related to \"Prepaid Wireless\" can be found here and here.\\E$"}
+{"rule":"MORFOLOGIK_RULE_EN_US","sentence":"^\\Q{{% admonition tip Tip false%}} Typical terminology related to \"Prepaid Wireless\" can be found here and here.\\E$"}
+{"rule":"ENGLISH_WORD_REPEAT_RULE","sentence":"^\\Q{{% admonition tip Tip false %}} Typical terminology related to \"Prepaid Wireless\" can be found here and here.\\E$"}
+{"rule":"HAD_HARD","sentence":"^\\QEven with the fact that the Big 3 dominate the market, there is more than enough profit to be had to warrant the nearly 100+ reseller/independant carriers operating in the country.\\E$"}
+{"rule":"HAD_HARD","sentence":"^\\QEven with the fact that the Big 3 dominate the market, there is more than enough profit to be had to warrant the nearly 100+ reseller/independent carriers operating in the country.\\E$"}
+{"rule":"DATE_FUTURE_VERB_PAST","sentence":"^\\QUpdated October 04, 2021.\\E$"}
+{"rule":"DOUBLE_NEGATIVE","sentence":"^\\QThey're Not Wrong\nNo one is wrong for not knowing\\E$"}
+{"rule":"ENTER_IN","sentence":"^\\QSimply enter in a search engine {{% /admonition %}} For example if you are\\E$"}
+{"rule":"ENGLISH_WORD_REPEAT_RULE","sentence":"^\\QUSA-USA Minutes Unlimited Unlimited\nUSA-USA Text Messages Unlimited Unlimited\nInternational Calling to 75+ Countries from the USA Unlimited Unlimited\nData (Internet) 7GB 15GB\nBonus International Credit $2.50 Unlimited\nMinutes Unlimited Unlimited\nMinutes Unlimited Unlimited\\E$"}
+{"rule":"RB_RB_COMMA","sentence":"^\\QUnlimited USA-USA Minutes Yes Yes\nUnlimited USA-USA Text Messages Yes Yes\nWi-Fi Calling Yes Yes\nMobile Hotspot (Tethering) Yes Yes\nEasy Cash Refill Options Yes Yes\\E$"}
+{"rule":"SOME_OF_THE","sentence":"^\\QMost of Europe\nSome of the Americas\nSome of Asia\nVery Few of Africa\nAustralia & New Zealand\\E$"}
+{"rule":"MORFOLOGIK_RULE_EN_US","sentence":"^\\QuTalk\\E$"}
+{"rule":"ADVERB_VERB_ADVERB_REPETITION","sentence":"^\\QCash (USD) Yes\nCheck Yes\nWalgreens Gift Card I do not know if you can pay for Prepaid Refills with this\nPrepaid Visa/Mastercard Gift Card Yes\nVisa/Mastercard Yes\nApple Pay Yes\nGoogle Pay No\nSamsung Pay No\\E$"}
+{"rule":"MANY_NN","sentence":"^\\Q**Vanilla Visa Gift Cards - These are found at many popular\\E$"}
+{"rule":"LETS_LET","sentence":"^\\QOh well... no sense pouting, lets continue with the methods that work right now.\\E$"}
+{"rule":"MORFOLOGIK_RULE_EN_US","sentence":"^\\QWhat about Non-Corperate stores... good luck, that's all I'll say about that.\\E$"}
+{"rule":"LETS_LET","sentence":"^\\QLets move on to some other ways of activating the plans.\\E$"}

@@ -1,0 +1,441 @@
+baseURL = "http://Lyroma.com/"
+defaultContentLanguage = "en"
+languageCode = "en"
+title = "Lyroma"
+theme = "FeelIt"
+ignoreErrors = ["err-missing-comment-accesstoken", "err-missing-oembed-accesstoken"]
+enableRobotsTXT = false # whether to use robots.txt
+
+[params]
+  version = "1.0.X" # FeelIt theme version
+  description = "A Blog About Prepaid Wireless" # site description
+  keywords = ["prepaid", "wireless", "mobile", "phone", "plans", "sim card"] # site keywords
+  defaultTheme = "light" # site default theme ("light", "dark", "auto")
+  dateFormat = "2006-01-02" # date format
+  images = ["/logo.png"] # website images for Open Graph and Twitter Cards
+  SourceMap = true # FeelIt NEW | 1.0.0 whether to enable CSS and JS source mapping
+
+[languages]
+  [languages.en]
+    weight = 1 # language code 
+    languageCode = "en" # language name
+    languageName = "English" # whether to include Chinese/Japanese/Korean
+    hasCJKLanguage = false
+    paginate = 12 # default amount of posts in each pages
+    copyright = "Lyroma 2023"
+    [languages.en.menu] # Menu config
+      [[languages.en.menu.main]]
+        identifier = "posts"
+        pre = "" # you can add extra information before the name (HTML format is supported), such as icons
+        post = "" # you can add extra information after the name (HTML format is supported), such as icons
+        name = "Posts"
+        url = "/posts/"
+        title = "" # title will be shown when you hover on this menu link.
+        weight = 1
+      [[languages.en.menu.main]]
+        identifier = "tags"
+        pre = ""
+        post = ""
+        name = "Tags"
+        url = "/tags/"
+        title = ""
+        weight = 3
+      [[languages.en.menu.main]]
+        identifier = "categories"
+        pre = ""
+        post = ""
+        name = "Categories"
+        url = "/categories/"
+        title = ""
+        weight = 3
+      [[languages.en.menu.main]]
+        identifier = "contribute"
+        pre = ""
+        post = ""
+        name = "Contribute"
+        url = "/contribute/"
+        title = ""
+        weight = 5
+      [[languages.en.menu.main]]
+        identifier = "about"
+        pre = ""
+        post = ""
+        name = "About"
+        url = "/about/"
+        title = ""
+        weight = 7
+      [[languages.en.menu.main]]
+        identifier = "discounts"
+        pre = ""
+        post = ""
+        name = "Discounts"
+        url = "/discounts/"
+        title = ""
+        weight = 2
+    [languages.en.params]
+      description = "A Blog About Prepaid Wireless" # site description
+      keywords = ["prepaid", "wireless", "mobile", "phone", "plans", "sim card"] # site keywords
+      [languages.en.params.app] # App icon config
+        title = "Lyroma" # optional site title override for the app when added to an iOS home screen or Android launcher
+        noFavicon = false # whether to omit favicon resource links
+        svgFavicon = "" # modern SVG favicon to use in place of older style .png and .ico files
+        themeColor = "#ffffff" # Android browser theme color
+        iconColor = "#5bbad5" # Safari mask icon color
+        tileColor = "#da532c" # Windows v8-10 tile color
+      [languages.en.params.search] # Search config
+        enable = true
+        type = "lunr" # type of search engine ("lunr", "algolia")
+        contentLength = 4000 # max index length of the chunked content
+        placeholder = "" # placeholder of the search bar
+        maxResultLength = 10 # max number of results length
+        snippetLength = 30 # snippet length of the result
+        highlightTag = "em" # HTML tag name of the highlight part in results
+        absoluteURL = false # whether to use the absolute URL based on the baseURL in search index
+        [languages.en.params.search.algolia]
+          index = ""
+          appID = ""
+          searchKey = ""
+
+      [languages.en.params.home] # Home page config
+        rss = 10 # amount of RSS pages
+        [languages.en.params.home.profile] # Home page profile
+          enable = true
+          gravatarEmail = "" # Gravatar Email for preferred avatar in home page
+          avatarURL = "" # URL of avatar shown in home page
+          title = "A Blog About Prepaid Wireless" # title shown in home page (HTML format is supported)
+          subtitle = "<em>Who Let Me Have My Own Website???<em>" # subtitle shown in home page (HTML format is supported)
+          typeit = true # whether to use typeit animation for subtitle
+          social = true # whether to show social links
+          disclaimer = "" # disclaimer (HTML format is supported)
+        [languages.en.params.home.posts] # Home page posts
+          enable = true
+          paginate = 10 # special amount of posts in each home posts page
+          imagePreview = true # display image-preview
+
+      [languages.en.params.about] # About page config
+        enable = false # whether to enable profile on about page, depends on .Site.Params.home.profile.enable
+        param = false # whether to enable param layout
+        paramTitle = "" # title for param layout
+        description = "A Blog About Prepaid Wireless" # general description of your site, can be write with markdown style
+        [[languages.en.params.about.status]] # description of your status
+          faIcon = "fas fa-building"
+          title = "Company"
+          desc = "FeelIt"
+        [[languages.en.params.about.status]]
+          faIcon = "fas fa-briefcase fa-fw"
+          title = "Occupation"
+          desc = "Freelancer"
+        [[languages.en.params.about.status]]
+          title = "Location"
+          faIcon = "fas fa-map-marker-alt"
+          desc = "Earth"
+        [[languages.en.params.about.parameter]] # description of your parameter
+          language = "UI/UX"
+          level = "80"
+        [[languages.en.params.about.parameter]]
+          language = "HTML"
+          level = "70"
+        [[languages.en.params.about.parameter]]
+          language = "Go"
+          level = "60"
+
+  [params.header] # Header config
+    desktopMode = "fixed" # desktop header mode ("fixed", "normal", "auto")
+    mobileMode = "auto" # mobile header mode ("fixed", "normal", "auto")
+    [params.header.title] # Header title config
+      logo = "" # URL of the LOGO
+      name = "Lyroma" # title name
+      pre = "" # you can add extra information before the name (HTML format is supported), such as icons
+      post = "" # you can add extra information after the name (HTML format is supported), such as icons
+      typeit = true # whether to use typeit animation for title name
+      rss = true # whether to show RSS icon
+
+  [params.footer] # Footer config
+    enable = true
+    custom = '' # Custom content (HTML format is supported)
+    hugo = false # whether to show Hugo and theme info
+    copyright = false # whether to show copyright info
+    author = true # whether to show the author
+    since = 2021 # Site creation time
+    icp = "" # ICP info only in China (HTML format is supported)
+    license = "Lyroma 2023" # license info (HTML format is supported)
+
+  [params.section] # Section (all posts) page config
+    paginate = 20 # special amount of posts in each section page
+    dateFormat = "01-02" # date format (month and day)
+    rss = 10 # amount of RSS pages
+
+  [params.list] # List (category or tag) page config
+    paginate = 20 # special amount of posts in each list page
+    dateFormat = "01-02" # date format (month and day)
+    rss = 10 # amount of RSS pages
+
+    [params.oembed] # oEmbed config for Facebook, Instagram, Twitter
+    privacy = false # Privacy config (https://gohugo.io/about/hugo-and-gdpr/)
+    [params.oembed.twitter]
+      enableDNT = false 
+
+    [params.page] # Page config
+    hiddenFromHomePage = false # whether to hide a page from home page
+    hiddenFromSearch = false # whether to hide a page from search results
+    twemoji = false # whether to enable twemoji
+    lightgallery = true # whether to enable lightgallery
+    ruby = false # whether to enable the ruby extended syntax
+    fraction = false # whether to enable the fraction extended syntax
+    fontawesome = false # whether to enable the fontawesome extended syntax
+    cdnfontawesome = false # whether to use the fontawesome as cdn source
+    linkToMarkdown = false # whether to show link to Raw Markdown content of the content
+    improveArticle = "" # whether to show link to improve the article
+    rssFullText = false # whether to show the full text content in RSS
+
+    [params.page.toc] # Table of the contents config
+      enable = true # whether to enable the table of the contents
+      keepStatic = false # whether to keep the static table of the contents in front of the post
+      auto = true # whether to make the table of the contents in the sidebar automatically collapsed
+
+    [params.page.code] # Code config
+      copy = true # whether to show the copy button of the code block
+      maxShownLines = 10 # the maximum number of lines of displayed code by default
+
+    [params.page.math] # KaTeX mathematical formulas config (KaTeX https://katex.org/)
+      enable = false
+      blockLeftDelimiter = "" # default block delimiter is $$ ... $$ and \\[ ... \\]
+      blockRightDelimiter = ""
+      inlineLeftDelimiter = "" # default inline delimiter is $ ... $ and \\( ... \\)
+      inlineRightDelimiter = ""
+      copyTex = true # KaTeX extension copy_tex
+      mhchem = true # KaTeX extension mhchem
+
+    [params.page.mapbox] # Mapbox GL JS config (Mapbox GL JS https://docs.mapbox.com/mapbox-gl-js)
+      accessToken = "" # access token of Mapbox GL JS
+      lightStyle = "mapbox://styles/mapbox/light-v10?optimize=true" # style for the light theme
+      darkStyle = "mapbox://styles/mapbox/dark-v10?optimize=true" # style for the dark theme
+      navigation = false # whether to add NavigationControl (https://docs.mapbox.com/mapbox-gl-js/api/#navigationcontrol)
+      geolocate = false # whether to add GeolocateControl (https://docs.mapbox.com/mapbox-gl-js/api/#geolocatecontrol)
+      scale = false # whether to add ScaleControl (https://docs.mapbox.com/mapbox-gl-js/api/#scalecontrol)
+      fullscreen = false # whether to add FullscreenControl (https://docs.mapbox.com/mapbox-gl-js/api/#fullscreencontrol)
+
+    [params.page.share] # Social share links in post page
+      enable = false
+      Twitter = false
+      Facebook = false
+      Linkedin = false
+      Whatsapp = false
+      Pinterest = false
+      Tumblr = false
+      HackerNews = false
+      Reddit = false
+      VK = false
+      Buffer = false
+      Xing = false
+      Line = false
+      Instapaper = false
+      Pocket = false
+      Digg = false
+      Stumbleupon = false
+      Flipboard = false
+      Weibo = false
+      Renren = false
+      Myspace = false
+      Blogger = false
+      Baidu = false
+      Odnoklassniki = false
+      Evernote = false
+      Skype = false
+      Trello = false
+      Mix = false
+
+    [params.page.comment] # Comment config
+      enable = true
+     
+    [params.page.library] # Third-party library config
+      [params.page.library.css]
+        # someCSS = "some.css"
+        # located in "assets/"
+        # someCSS = "https://cdn.example.com/some.css"
+      [params.page.library.js]
+        # someJavascript = "some.js"
+        # located in "assets/"
+        # someJavascript = "https://cdn.example.com/some.js"
+    
+    [params.page.seo] # Page SEO config
+      images = [] # image URL
+      [params.page.seo.publisher] # Publisher info
+        name = "xxxx"
+        logoUrl = ""
+
+  [params.social] # Social config in home page
+    Twitter = ""
+    Reddit = "Don-Silvio"
+    Medium = ""
+    Email = "Lyroma@protonmail.com"
+    RSS = true
+    GitHub = ""
+    Linkedin = ""
+    Instagram = ""
+    Facebook = ""
+    Telegram = ""
+    Gitlab = ""
+    Youtubelegacy = ""
+    Youtubecustom = ""
+    Youtubechannel = ""
+    Tumblr = ""
+    Quora = ""
+    Keybase = ""
+    Pinterest = ""
+    Codepen = ""
+    FreeCodeCamp = ""
+    Bitbucket = ""
+    Stackoverflow = ""
+    Weibo = ""
+    Odnoklassniki = ""
+    VK = ""
+    Flickr = ""
+    Xing = ""
+    Snapchat = ""
+    Soundcloud = ""
+    Spotify = ""
+    Bandcamp = ""
+    Paypal = ""
+    Fivehundredpx = ""
+    Mix = ""
+    Goodreads = ""
+    Lastfm = ""
+    Foursquare = ""
+    Hackernews = ""
+    Kickstarter = ""
+    Patreon = ""
+    Steam = ""
+    Twitch = ""
+    Strava = ""
+    Skype = ""
+    Whatsapp = ""
+    Zhihu = ""
+    Douban = ""
+    Angellist = ""
+    Slidershare = ""
+    Jsfiddle = ""
+    Deviantart = ""
+    Behance = ""
+    Dribbble = ""
+    Wordpress = ""
+    Vine = ""
+    Googlescholar = ""
+    Researchgate = ""
+    Thingiverse = ""
+    Devto = ""
+    Gitea = ""
+    XMPP = ""
+    Matrix = ""
+    Bilibili = ""
+    Resume = "" #goo.gl id
+    xda = ""
+
+  [params.typeit] # TypeIt config
+    speed = 100 # typing speed between each step (measured in milliseconds)
+    cursorSpeed = 1000 # blinking speed of the cursor (measured in milliseconds)
+    cursorChar = "|" # character used for the cursor (HTML format is supported)
+    duration = 1 # cursor duration after typing finishing (measured in milliseconds, "-1" means unlimited)
+
+  [params.verification] # Site verification code for Google/Bing/Yandex/Pinterest/Baidu
+    google = ""
+    bing = ""
+    yandex = ""
+    pinterest = ""
+    baidu = ""
+
+  [params.seo] # Site SEO config
+    image = "/images/Apple-Devices-Preview.webp" # image URL
+    thumbnailUrl = "/images/screenshot.png" # thumbnail URL
+
+  [params.analytics] # Analytics config
+    enable = true
+    [params.analytics.fathom] # Fathom Analytics
+      id = ""
+      server = "" # server url for your tracker if you're self hosting
+    [params.analytics.goatcounter] # GoatCounter Analytics
+      code = "silvio" # GoatCounter code
+
+
+  [params.cookieconsent] # Cookie consent config
+    enable = false
+    [params.cookieconsent.content] # text strings used for Cookie consent banner
+      message = ""
+      dismiss = ""
+      link = ""
+
+  [params.cdn] # CDN config for third-party library files
+    # CDN data file name, disabled by default
+    # ("jsdelivr.yml")
+    # located in "themes/FeelIt/assets/data/cdn/" directory
+    # you can store your own data files in the same path under your project:
+    # "assets/data/cdn/"
+    # ("jsdelivr.yml")
+    # "assets/data/cdn/"
+    data = ""
+
+  [params.compatibility] # Compatibility config
+    polyfill = false # whether to use Polyfill.io to be compatible with older browsers
+    objectFit = false # whether to use object-fit-images to be compatible with older browsers
+
+[markup] # Markup related configuration in Hugo
+  [markup.highlight] # Syntax Highlighting (https://gohugo.io/content-management/syntax-highlighting)
+    codeFences = true
+    guessSyntax = true
+    lineNos = true
+    lineNumbersInTable = true
+    noClasses = false # false is a necessary configuration (https://github.com/dillonzq/LoveIt/issues/158)
+  [markup.goldmark] # Goldmark is from Hugo 0.60 the default library used for Markdown
+    [markup.goldmark.extensions]
+      definitionList = true
+      footnote = true
+      linkify = true
+      strikethrough = true
+      table = true
+      taskList = true
+      typographer = true
+    [markup.goldmark.renderer]
+      unsafe = true # whether to use HTML tags directly in the document
+  [markup.tableOfContents] # Table Of Contents settings
+    startLevel = 2
+    endLevel = 6
+
+[author] # Author config
+  name = "Don Silvio"
+  email = "lyroma@protonmail.com"
+  link = ""
+
+[sitemap] # Sitemap config
+  changefreq = "weekly"
+  filename = "sitemap.xml"
+  priority = 0.5
+
+[Permalinks] # Permalinks config (https://gohugo.io/content-management/urls/#permalinks)
+  posts = ":filename" # posts = ":year/:month/:filename"
+
+[privacy] # Privacy config (https://gohugo.io/about/hugo-and-gdpr/)
+  [privacy.twitter]
+    enableDNT = false
+  [privacy.youtube]
+    privacyEnhanced = false
+
+[mediaTypes] # Options to make output .md files
+  [mediaTypes."text/plain"]
+    suffixes = ["md"]
+
+[outputFormats.MarkDown] # Options to make output .md files
+  mediaType = "text/plain"
+  isPlainText = true
+  isHTML = false
+
+[outputs] # Options to make hugo output files
+  home = ["HTML", "RSS", "JSON"]
+  page = ["HTML", "MarkDown"]
+  section = ["HTML", "RSS"]
+  taxonomy = ["HTML", "RSS"]
+  taxonomyTerm = ["HTML"]
+
+[minify] # Minify config
+  [minify.tdewolff]
+    [minify.tdewolff.html]
+      keepWhitespace = false # ignore the whitespace as we don't have text around the span tag (https://github.com/khusika/FeelIt/issues/40)
